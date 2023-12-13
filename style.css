@@ -1,0 +1,32 @@
+.riveGauche {
+    border: solid 2px black;
+    width: 100%;
+
+
+
+}
+
+.riveDroite {
+    width: 100%;
+  display: flex;
+  justify-content:center;
+  gap: 10px;
+ 
+
+
+}
+
+.article {
+    border: solid 1px rgb(233, 222, 222);
+
+}
+
+.bothRive {
+    display: flex;
+
+}
+
+.image {
+    width: 100%;
+   
+}
