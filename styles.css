@@ -1,0 +1,147 @@
+.container {
+  display: flex;
+  border: solid 1px black;
+  height: 100vh;
+}
+
+.container__droite,
+.container__gauche {
+
+  flex: 1;
+}
+
+.container__gauche {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-image: url(nicole.jpg);
+  background-size: cover;
+  background-position: center;
+
+
+}
+
+.section{
+  background-color: rgba(155, 155, 155, 0.3);
+  color:white ;
+  font-weight: bold;
+  padding: 40px;
+ text-align: right;
+}
+.titleLastestNews{
+  display: flex;
+align-items: baseline;
+  justify-content: end;
+  gap:10px;
+  font-style: normal;
+
+  
+}
+.title{
+  font-weight: bold;
+  font-size: 25px;
+  
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+
+}
+
+.hearderImg {
+  width: 30px;
+
+}
+
+.headerTitle {
+  width: 1px;
+  font-size: bold;
+  color: white;
+}
+
+nav{
+  display: flex;
+ 
+  justify-content: end;
+  margin:20px
+
+ 
+}
+a{
+  color:white;
+}
+.container__droite__article {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+.LatestNewsContainer{
+  text-align: left;
+  font-size: 25px;
+  font-weight:bold ;
+  padding: 20px;
+  background: rgb(230, 224, 224);
+}
+
+.article {
+  box-sizing: border-box;
+  width: 50%;
+  border: solid 1px rgb(227, 221, 221);
+  padding: 20px;
+  
+}
+
+.tagVert{
+  display: inline-block;
+  background-color: green;
+  font-weight: bold;
+  color:white;
+  padding: 5px;
+  margin-bottom: 30px;
+  text-transform:uppercase;
+
+}
+.tagBleu{
+display: inline-block;
+background-color: blue;
+font-weight: bold;
+color:white;
+padding: 5px;
+margin-bottom: 30px;
+text-transform:uppercase;
+}
+.tagRouge{
+display: inline-block;
+background-color: red;
+font-weight: bold;
+color:white;
+padding: 5px;
+margin-bottom: 30px;
+text-transform:uppercase;
+}
+.author{
+  display: flex;
+  gap: 5px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  align-items: baseline;
+ 
+}
+.date{
+  font-size: small;
+  color: rgb(215, 206, 206);
+}
+.imgAuthor{
+  width: 20px;
+  
+}
+
+.articleTitle{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
